@@ -1,0 +1,72 @@
+{
+  "name": "react-editable-json-tree",
+  "version": "2.1.0",
+  "description": "React Editable Json Tree",
+  "main": "dist/JsonTree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gulp serve",
+    "release": "gulp release",
+    "start": "gulp serve"
+  },
+  "keywords": [
+    "React",
+    "Editable",
+    "Json",
+    "Tree",
+    "Customizable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oxyno-zeta/react-editable-json-tree.git"
+  },
+  "author": "Oxyno-zeta",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "del": "^2.2.2",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "extract-text-webpack-plugin": "2.1.2",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^2.5.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "lodash": "^4.17.2",
+    "node-sass": "^4.6.0",
+    "postcss-loader": "^1.1.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-hot-loader": "^3.1.2",
+    "run-sequence": "^1.2.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-browser-plugin": "^1.0.12",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "react-hotkeys": "^0.10.0",
+    "prop-types": "^15.6.0"
+  }
+}
